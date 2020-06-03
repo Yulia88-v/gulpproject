@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gulp project</title>
+	<link rel="stylesheet" type="text/css" href="less/main.less">
+    <link rel="stylesheet" type="text/css" href="less/libs.less">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/adapt.css">
+	<link rel="stylesheet" type="text/css" href="css/libs.css">
+	<link rel="stylesheet" type="text/css" href="css/libs.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="fonts/medium_font.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <script src="js/libs.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="for_page">
+	<div class="page">
+		<!-------Header------>
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
+		<nav class="navbar navbar-expand-lg ">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Menu</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler"><img src="img/menu_ico3.png"/></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">О магазине</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">доставка</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">гарантия</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">вопросы и ответы</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">преимущества</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
+</div>
+<div class="col-lg-2 col-md-3 col-sm-6 col-xs-3 order">
+	<p>Артикуль №23953330</p>
+	</div>
+	<div class="col-lg-2 col-md-3 col-sm-6 col-xs-3 time">
+	<p> <span>(499) 704-39-65</span><br/>Круглосуточно 24/7</p>
+	</div>
+				</div>
+			</div>
+		</header>
+		<!-----Header------>
+
+		<!----Sales first block----->
+		<div class=" bg_first">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 logo_text">
+					<div class="logo">
+					<img src="img/frozen_text.png">
+			</div>
+			<p>Интерактивный детский телефон</p>
+		
+		<div class="sales_mob">
+			<img src="img/fon_tel1.png">
+		</div>
+
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 sales_title">
+		<div class="img_elza">
+			<img src="img/elza-img.png">
+		</div>
+		<h4>Встречай<br/> новогоднюю<br/>скидку!</h4>
+		<div class="fon_sales">
+			<img src="img/aksii.png">
+		</div>
+		<p><span class="red">2 990 руб </span><br/><del class="grey"> 4 000 руб</del></p>
+	</div>
+	</div>
+</div>
+</div>
+		<!-----Sales first block---->
+
+		<!----Timer second block---->
+		<div class="bg_second">
+        <div class="container">
+        	<div class="row">
+        	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text_counter">
+        		<h3>Новинка на рынке интерактивных игрушек.</h3>
+        		<p>Интерактивная игрушка телефон Маша и Медведь на сенсорных кнопочках. Телефон имеет вид настоящего смартфона, на котором отображается популярные герои знаменитого мультфильма Маша и Медведь. Теперь всемирно известные герои в игрушечном смартфоне. Вопреки того, что телефончик детский он имеет множество назначений, которые будут интересны младшему поколению пользователей и обязательно заинтересует старшее поколение.</p>
+        		<p>Низкая цена на игрушку дает возможность сделать презент не только на торжественный или значимый день, но и беспричинно, дабы сделать великолепный сюрприз ребенку!</p>
+        	</div>
+        	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 time_counter">
+        		<h3>Успейте заказать отличный подарок к Новому году для своего ребенка</h3>
+        		<div id="countdown" class="countdown">
+  <div class="countdown-number">
+    <span class="days countdown-time"></span>
+    <span class="countdown-text">дней</span>
+  </div>
+  <div class="countdown-number">
+    <span class="hours countdown-time"></span>
+    <span class="countdown-text">часов</span>
+  </div>
+  <div class="countdown-number">
+    <span class="minutes countdown-time"></span>
+    <span class="countdown-text">минут</span>
+  </div>
+  <div class="countdown-number">
+    <span class="seconds countdown-time"></span>
+    <span class="countdown-text">секунд</span>
+  </div>
+</div>
+<form>
+	<form>
+  <div class="form-group">
+    <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Ваше имя">
+  </div>
+  <div class="form-group">
+    <input type="phone" class="form-control" id="exampleInputPhone" placeholder="Ваш телефон">
+  </div>
+  <button type="submit" class="btn btn-primary">Заказать сейчас!</button>
+</form>
+        	</div>
+
+        	</div>
+        </div>
+    </div>
+	<!-------Timer second block---->
+	<!-------Function third block---->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text">
+				<h3>Функции и характеристики смартфона:</h3>
+			</div>
+		</div>
+	</div>
+			<div class="container">
+		<div class="row">
+			
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 link_function">
+			<ul>
+				<li><a href="">Звуковой эффект</a> </li>
+
+				<li><a href="">Истории</a></li>
+				<li><a href="">Фонарик</a></li>
+				<li><a href="">Телефон</a></li>
+				<li><a href="">Громкость</a></li>
+				<li><a href="">Вклю/Откл</a></li>
+			</ul>
+			<div class="img1">
+			<img class="arr1" src="img/arr1.png"/>
+		</div>
+		<div class="img2">
+			<img class="arr2" src="img/arr2.png"/>
+		</div>
+		<div class="img3">
+			<img class="arr3" src="img/arr3.png"/>
+		</div>
+		<div class="img4">
+			<img class="arr4" src="img/arr4.png"/>
+		</div>
+		<div class="img5">
+			<img class="arr5" src="img/arr5.png"/>
+		</div>
+		<div class="img6">
+			<img class="arr6" src="img/arr6.png"/>
+		</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-3 col-xs-3">
+			<div class="img_function">
+				<img src="img/front3.png">
+			</div>	
+			<div class="img_function2">
+				<img src="img/front4.png">
+			</div>
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 link_funct">
+			<ul>
+				<li><a href="">Звуковой эффект</a></li>
+				
+				<li><a href="">Музыка</a></li>
+				<li><a href="">Сказки</a></li>
+				<li><a href="">Обучения</a></li>
+				<li><a href="">Песни</a></li>
+				
+			</ul>
+			<div class="img7">
+			<img class="arr7" src="img/arr7.png"/>
+		</div>
+		<div class="img8">
+			<img class="arr8" src="img/arr8.png"/>
+		</div>
+		<div class="img9">
+			<img class="arr9" src="img/arr9.png"/>
+		</div>
+		<div class="img10">
+			<img class="arr10" src="img/arr10.png"/>
+		</div>
+		<div class="img11">
+			<img class="arr11" src="img/arr11.png"/>
+		</div>
+			
+		</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 image_function">
+				<div class="img_fuct">
+					<img src="img/front2.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-------Function third block----->	
+	<!-----Feedback fourth block------>
+	<div class="bg_second">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title5">
+				<h3>Отзывы покупателей:</h3>
+			</div>
+			</div>
+			<div class="row bg_white">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 people1">
+					<div class="img_people">
+						<img src="img/ava1.jpg">
+					</div>
+				</div>
+				<div class="col-lg-10 col-md-8 col-sm-9 col-xs-9 people_text">
+					<h3>Марина</h3>
+					<p>Очень хорошая игрушка, моя дочь 7 лет, везьде с телефоном. Не расстается с ним даже в школе. Спасибо большое за радость, которую ощутили мы с малышкой!</p>
+				</div>
+			</div>
+			<div class="row bg_white">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 people2">
+					<div class="img_people">
+						<img src="img/ava2.jpg">
+					</div>
+				</div>
+				<div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 people_text">
+					<h3>Юрий</h3>
+					<p>Интереснейшая игрушка для ребенка, купили с женой толком даже не понимая что єто, а оказалось что телефончик уникальній и мало чем похож на другие игрушки наших детей. Беда только в том что теперь надо покупать еще один, а то поделить не могут)).</p>
+				</div>
+			</div>
+			<div class="row bg_white">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 people3">
+					<div class="img_people">
+						<img src="img/ava3.jpg">
+					</div>
+				</div>
+				<div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 people_text">
+					<h3>Ольга</h3>
+					<p>Хочу сказать большое спасибо за качественный товар. Брали в качестве подарка и выбрали то что надо. Проверяли при доставке и все работает как надо, очень достойная игрушка для детей практически любого возраста кроме очень маленьких.</p>
+				</div>
+			</div>
+			<div class="row bg_white">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 people4">
+					<div class="img_people">
+						<img src="img/ava4.jpg">
+					</div>
+				</div>
+				<div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 people_text">
+					<h3>Юлия</h3>
+					<p>Думаю не ошибусь если скажу что смартфон продуман до мелочей, все функции, которые присутствуют очень и очень интересны для детей. Дизайн отвечает полноценному телефону, а сенсорный экран очень удобен для детишек и учит пользваться игрушкой как настоящим </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-----Feedback fourth block------>
+	<!------Order fifth block------->
+	<div class="bg_third">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 order_text">
+					<div class="logo">
+					<img src="img/frozen_text.png">
+			</div>
+			<h3>Интерактивный детский телефон</h3>
+			<p>Успейте заказать отличный подарок к
+Новому году для своего ребенка!</p>
+            <div id="countdown2" class="countdown2">
+  <div class="countdown-number2">
+    <span class="days countdown-time"></span>
+    <span class="countdown-text">дней</span>
+  </div>
+  <div class="countdown-number2">
+    <span class="hours countdown-time"></span>
+    <span class="countdown-text">часов</span>
+  </div>
+  <div class="countdown-number2">
+    <span class="minutes countdown-time"></span>
+    <span class="countdown-text">минут</span>
+  </div>
+  <div class="countdown-number2">
+    <span class="seconds countdown-time"></span>
+    <span class="countdown-text">секунд</span>
+  </div>
+				</div>
+				<form>
+	<form class="second">
+  <div class="form-group">
+    <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Ваше имя">
+  </div>
+  <div class="form-group">
+    <input type="phone" class="form-control" id="exampleInputPhone" placeholder="Ваш телефон">
+  </div>
+  <button type="submit" class="btn btn-primary">Заказать сейчас!</button>
+</form>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 order_text2">
+			<div class="sales_mob2">
+			<img src="img/fon_tel1.png">
+		</div>
+		<div class="fon_sales2">
+			<img src="img/aksii.png">
+		</div>
+		<p><span class="red">2 990 руб </span><br/><del class="grey"> 4 000 руб</del></p>
+
+	</div>
+
+
+		</div>
+	</div>
+	<!------Order fifth block----->
+	</div>
+	<!--------Foooter--------->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 footer_link1">
+					<a href="">Политика конфиденциальности</a>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 footer_link2">
+					<a href="">Партнерская программа</a>
+				</div>
+			</div>
+			<div class="row text">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer_text">
+					<p>Срочную доставку осуществляет Новая Почта.</p>
+			</div>
+		</div>
+		<div class="row text">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer_text">
+					<p>Доставка оплачивается по тарифам Новой почты при получении</p>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<script src="js/date_counter2.js"></script>
+</body>
+</html>
